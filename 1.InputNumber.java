@@ -5,22 +5,22 @@ public class InputNumber {
 
     public static void main(String[] args) {
         Scanner yourNumber1 = new Scanner(System.in);
-        System.out.println("Моля, въведте число:");
+        System.out.println("Моля, въведете число:");
 
         String numberTyped = yourNumber1.nextLine();
-        System.out.println("Въвденето число е: " + numberTyped);
+        System.out.println("Въведенето число е: " + numberTyped);
 
         Scanner yourNumber2 = new Scanner(System.in);
-        System.out.println("Моля, въведте число:");
+        System.out.println("Моля, въведете число:");
 
         String numberTyped2 = yourNumber2.nextLine();
-        System.out.println("Въвденето число е: " + numberTyped2);
+        System.out.println("Въведенето число е: " + numberTyped2);
 
         Scanner yourNumber3 = new Scanner(System.in);
-        System.out.println("Моля, въведте число:");
+        System.out.println("Моля, въведете число:");
 
         String numberTyped3 = yourNumber3.nextLine();
-        System.out.println("Въвденето число е: " + numberTyped3);
+        System.out.println("Въведенето число е: " + numberTyped3);
 
         int a = Integer.parseInt(numberTyped);
         int b = Integer.parseInt(numberTyped2);
